@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}Servers{% endblock %}
+
+{% block content %}
+<div>
+    {% for server in servers %}
+    <div>
+        <h2><a href="{% url 'servers:detail' pk=server.pk %}">{{ server.name }}</a></h2>
+        {{ server.notes }}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
