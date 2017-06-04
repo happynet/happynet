@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on local
+From: webmaster@localhost
+To: msbozee@gmail.com
+Date: Sun, 04 Jun 2017 16:50:20 -0000
+Message-ID: <20170604165020.9313.28318@vagrant-ubuntu-trusty-64>
+
+
+You're receiving this email because you requested a password reset for your user account at local.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1/accounts/reset/MQ/4mm-be0bf3041f13b909c519/
+
+Your username, in case you've forgotten: mikebozee
+
+Thanks for using our site!
+
+The local team
+
+
+
+-------------------------------------------------------------------------------

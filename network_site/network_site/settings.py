@@ -38,10 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'bootstrap3',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.github',
+    'accounts',
     'servers',
 ]
 
@@ -144,3 +146,8 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
     }
 }
+
+LOGIN_REDIRECT_URL = 'servers:list'
+
+EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
