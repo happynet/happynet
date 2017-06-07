@@ -1,0 +1,15 @@
+#preview {
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 15%;
+    background-color: #f8f8f8;
+    min-height: 100px;
+    padding: 10px;
+}
+
+#preview h1, h2, h3, h4, h5, h6, p {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}

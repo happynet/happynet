@@ -10,7 +10,7 @@
     <section>
         {% for router in server.router_set.all %}
         <h3>
-            <a href="%{ url 'servers:router' server_pk=router.server.pk router_pk=router.pk %}">{{ router.name }}</a>
+            <a href="{% url 'servers:router' server_pk=router.server.pk router_pk=router.pk %}">{{ router.name }}</a>
         </h3>
             {{ router.notes }}
         {% endfor %}
