@@ -3,9 +3,11 @@
 {% block title %}{{ router.name }} - {{ router.server.name }}{% endblock %}
 
 {% block content %}
+<div class="col-md-12">
 <article>
     <h2><a href="{% url 'servers:detail' pk=router.server.pk %}">{{ router.server.name }}</a></h2>
     <h3>{{ router.name }}</h3>
     {{ router.content|linebreaks }}
 </article>
+</div>
 {% endblock %}

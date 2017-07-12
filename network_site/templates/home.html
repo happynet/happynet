@@ -3,5 +3,212 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
+
+<div class="col-md-12">
 <h1>Welcome!</h1>
+</div>
+
+<!-- PANELS -->
+<!-- LEFT PANEL -->
+<div class="col-md-6">
+
+    <h2 class="component-heading">Server Locations</h2>
+
+    <!-- COUNTRIES TABLE -->
+    <div class="table-responsive">
+        <table class="table table-hover mb-countries">
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th colspan="3">Connections</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>SIN</th>
+                    <td class="success">
+                        COL
+                        <span class="mb-country-status mb-country-status-success">250ms</span>
+                    </td>
+                    <td class="warning">
+                        AMS
+                        <span class="mb-country-status mb-country-status-warning">200ms</span>
+                    </td>
+                    <td class="success">
+                        DUB
+                        <span class="mb-country-status mb-country-status-success">250ms</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>COL</th>
+                    <td class="danger">
+                        SIN
+                        <span class="mb-country-status mb-country-status-danger">350ms</span>
+                    </td>
+                    <td class="success">
+                        AMS
+                        <span class="mb-country-status mb-country-status-success">250ms</span>
+                    </td>
+                    <td class="danger">
+                        DUB
+                        <span class="mb-country-status mb-country-status-danger">350ms</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>AMS</th>
+                    <td class="success">
+                        SIN
+                        <span class="mb-country-status mb-country-status-success">250ms</span>
+                    </td>
+                    <td class="success">
+                        COL
+                        <span class="mb-country-status mb-country-status-success">250ms</span>
+                    </td>
+                    <td class="warning">
+                        DUB
+                        <span class="mb-country-status mb-country-status-warning">200ms</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>DUB</th>
+                    <td class="danger">
+                        SIN
+                        <span class="mb-country-status mb-country-status-danger">350ms</span>
+                    </td>
+                    <td class="success">
+                        COL
+                        <span class="mb-country-status mb-country-status-success">250ms</span>
+                    </td>
+                    <td class="success">
+                        AMS
+                        <span class="mb-country-status mb-country-status-success">250ms</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- /COUNTRIES TABLE -->
+
+</div>
+<!-- /LEFT PANEL -->
+
+<!-- RIGHT PANEL -->
+<div class="col-md-6">
+
+    <section id="devices">
+
+        <h2 class="component-heading">Connected Devices</h2>
+
+        <div class="panel-group" id="accordion">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Device 1 <span class="label label-success">Success</span></a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Health context placed here.</p>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">Code Upgrade</button>
+                            <button type="button" class="btn btn-default">Patch Installation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="list-group-item list-group-item-warning" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Device 2 <span class="label label-warning">Warning</span></a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Health context placed here.</p>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">Code Upgrade</button>
+                            <button type="button" class="btn btn-default">Patch Installation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Device 3 <span class="label label-success">Success</span></a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Health context placed here.</p>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">Code Upgrade</button>
+                            <button type="button" class="btn btn-default">Patch Installation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Device 4 <span class="label label-success">Success</span></a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Health context placed here.</p>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">Code Upgrade</button>
+                            <button type="button" class="btn btn-default">Patch Installation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="list-group-item list-group-item-danger" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Device 5 <span class="label label-danger">Danger</span></a>
+                    </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Health context placed here.</p>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">Code Upgrade</button>
+                            <button type="button" class="btn btn-default">Patch Installation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Device 6 <span class="label label-success">Success</span></a>
+                    </h4>
+                </div>
+                <div id="collapseSix" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Health context placed here.</p>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">Code Upgrade</button>
+                            <button type="button" class="btn btn-default">Patch Installation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+<!-- /RIGHT PANEL -->
+<!-- /PANELS -->
+
 {% endblock %}

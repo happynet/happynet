@@ -56,6 +56,8 @@
                       <ul class="dropdown-menu">
                         <li><a href="{% provider_login_url 'github' %}"><span class="mb-username">Name here</span>Your account</a></li>
                         <li role="separator" class="divider"></li>
+                        <li><a href="{% provider_login_url 'github' %}">GitHub login</a></li>
+                        <li><a href="{% provider_login_url 'google' %}">Google login</a></li>
                         <li><a href="#">Documentation</a></li>
                         <li><a href="#">Contact support</a></li>
                         <li role="separator" class="divider"></li>
@@ -70,9 +72,10 @@
             <!-- /NAVBAR -->
 
         {% block nav %}{% endblock %}
-        <section id="content">
+
+        <div class="row" id="mb-main">
             {% block content %}{% endblock %}
-        </section>
+        </div>
 
 
 

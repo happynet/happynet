@@ -3,6 +3,7 @@
 {% block title %}Servers{% endblock %}
 
 {% block content %}
+<div class="col-md-12">
 <div>
     {% for server in servers %}
     <div>
@@ -10,5 +11,6 @@
         {{ server.notes }}
     </div>
     {% endfor %}
+</div>
 </div>
 {% endblock %}
