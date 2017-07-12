@@ -10,7 +10,7 @@
 
 ## Todo:
 
-````- [x] Ability to log in through GitHub/Google via allauth
+```- [x] Ability to log in through GitHub/Google via allauth
 - [ ] Ability to log out of allauth account(s)
 - [ ] Ability to manage site account
 - [x] Incorporate mock-up UI from https://github.com/mikebozee/py300-network-project
