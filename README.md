@@ -1,4 +1,4 @@
-# Network Application https://img.shields.io/badge/license-MIT%20License-blue.svg
+# Network Application <img src="https://img.shields.io/badge/license-MIT%20License-blue.svg">
 
 ## Project for Python 300 course, part of UW PCE Python Programming certificate.
 
