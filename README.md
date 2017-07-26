@@ -42,4 +42,4 @@ $ python manage.py runserver
 
 Ashay | Jing | Mike
 --- | --- | ---
-- [ ] Export GNS3 data to Postgres | - [ ] setup up Postgres schema | - [ ] Deploy to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
+Export GNS3 data to Postgres | Set up Postgres schema | Deploy to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
