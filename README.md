@@ -40,6 +40,6 @@ $ python manage.py runserver
 
 ## Todo:
 
-| Ashay                            | Jing | Mike |
-| -------------------------------- | ---- | ---- |
-| [ ] Export GNS3 data to Postgres |      |      |
+Ashay | Jing | Mike
+--- | --- | ---
+- [ ] Export GNS3 data to Postgres | - [ ] setup up Postgres schema | - [ ] Deploy to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
