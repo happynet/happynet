@@ -12,9 +12,14 @@
 ## Instruction to run locally:
 
 - Clone this repo
-- Activate project virtualenv, "py300_project":
+- Create a virtualenv and activate:
 ```
-$ source py300_project/bin/activate
+$ virtualenv <name>
+$ source <name>/bin/activate
+```
+- Install requirements
+```
+$ pip install -r requirements.txt
 ```
 - Run server:
 ```
