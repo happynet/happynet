@@ -31,7 +31,7 @@ $ python manage.py runserver
 ## Mike's Todo:
 
 - [x] Ability to log in through GitHub/Google via allauth
-- [x] Incorporate mock-up UI from [static UI mockup repo](https://github.com/mikebozee/py300-network-project)
+- [x] Incorporate mockup UI from [static UI mockup repo](https://github.com/mikebozee/py300-network-project)
 - [ ] Deploy to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
 - [ ] Ability to log out of allauth account(s)
 - [ ] Ability to manage site account
