@@ -7,6 +7,8 @@
 
 ## Team: Ashay Krishna, Jing Dai, Mike Bozee
 
+![project interface screenshot](documentation/py300-project-screenshot-jul26.png)
+
 ## Instruction to run locally:
 
 - Clone this repo
