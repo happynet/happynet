@@ -9,7 +9,7 @@
 
 ![project interface screenshot](documentation/py300-project-screenshot-jul26.png)
 
-## Instruction to run locally:
+## Instructions to run locally:
 
 - Clone this repo
 - Create a virtualenv and activate:
