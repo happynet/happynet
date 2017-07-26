@@ -43,6 +43,6 @@ $ python manage.py runserver
 Ashay | Jing | Mike
 --- | --- | ---
 Export GNS3 data to Postgres | Set up Postgres schema | Deploy to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
- | | Ability to log out of allauth account(s)
- | | Ability to manage site account
+.. | .. | Ability to log out of allauth account(s)
+.. | .. | Ability to manage site account
 Connect GNS3 virtual networks to Django | Connect Postgres to GNS3 and Django | Connect Django to GNS3 virtual networks
