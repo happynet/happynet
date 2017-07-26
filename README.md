@@ -17,7 +17,7 @@
 $ virtualenv <name>
 $ source <name>/bin/activate
 ```
-- Install requirements
+- Install requirements:
 ```
 $ pip install -r requirements.txt
 ```
@@ -31,9 +31,15 @@ $ python manage.py runserver
 ## Mike's Todo:
 
 - [x] Ability to log in through GitHub/Google via allauth
+- [x] Incorporate mock-up UI from [static UI mockup repo](https://github.com/mikebozee/py300-network-project)
 - [ ] Ability to log out of allauth account(s)
 - [ ] Deploy to [AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/)
 - [ ] Ability to manage site account
-- [x] Incorporate mock-up UI from https://github.com/mikebozee/py300-network-project
 - [ ] Connect to GNS3 virtual networks
 - [ ] Assess and manage sqlite db
+
+## Todo:
+
+| Ashay                            | Jing | Mike |
+| -------------------------------- | ---- | ---- |
+| [ ] Export GNS3 data to Postgres |      |      |
