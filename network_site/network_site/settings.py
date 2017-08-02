@@ -24,9 +24,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '+!u915kp*qwh#lw^t%y12sx-#hr6fv%xg8^(o#%$$27igz_x^8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ec2-54-202-244-78.us-west-2.compute.amazonaws.com',
+    'localhost',
+]
 
 
 # Application definition
@@ -169,3 +172,14 @@ EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
 
 # AUTH_USER_MODEL = 'accounts.User'
+
+
+# From Joe's tutorial videos: final video
+DEBUG = False
+TEMPLATE_DEBUG = False
+ALLOWED_HOSTS = [
+    'ec2-54-202-244-78.us-west-2.compute.amazonaws.com',
+    'localhost',
+]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
