@@ -1,4 +1,4 @@
-# HappyNet [happynet.io](happynet.io)
+# HappyNet [happynet.io](http://happynet.io/)
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -62,11 +62,11 @@ Given an agreed threshold, we can alert users via email or some other alerting m
 
 This is an easy and proactive fix for latency issue. We just need couple of Linux boxes in each region, Python, [Jenkins](https://jenkins.io/), and [PostgreSQL](https://www.postgresql.org/).
 
-**Problem Two:** Device unhealthy in network
+**Problem two:** Device unhealthy in network
 
-**Manual Solution:** First to find device which is unhealthy, manually log in, and fix the device.
+**Manual solution:** First to find device which is unhealthy, manually log in, and fix the device.
 
-**Automated Solution:**
+**Automated solution:**
 
 Depending on vendors, devices provide syslogs when are unhealthy. Either its temperature, module faulty, or device is down.
 
