@@ -4,7 +4,7 @@
 
 ## Project for Python 300 course, part of UW PCE Python Programming certificate.
 
-## Team: Ashay Krishna, Jing Dai, Mike Bozee
+## Team: [Ashay Krishna](https://www.linkedin.com/in/ashay-krishna-06661a9/), [Jing Dai](https://www.linkedin.com/in/jing-dai-81223b27/), [Mike Bozee](https://www.linkedin.com/in/mikebozee/)
 
 ![project interface screenshot](documentation/happynet-aug29.png)
 
