@@ -21,15 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+!u915kp*qwh#lw^t%y12sx-#hr6fv%xg8^(o#%$$27igz_x^8'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = [
-    'ec2-54-202-244-78.us-west-2.compute.amazonaws.com',
-    'localhost',
-]
+SECRET_KEY = ''
 
 
 # Application definition
@@ -178,6 +170,8 @@ EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
 DEBUG = False
 TEMPLATE_DEBUG = False
 ALLOWED_HOSTS = [
+    'www.happynet.io',
+    'happynet.io',
     'ec2-54-202-244-78.us-west-2.compute.amazonaws.com',
     'localhost',
 ]
